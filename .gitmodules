@@ -1,0 +1,3 @@
+[submodule "DJXWebImage"]
+	path = DJXWebImage
+	url = https://github.com/dongjianxiong/DJXWebImage.git
