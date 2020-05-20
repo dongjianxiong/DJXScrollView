@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		63B43F1F1DC35A2C0081B544 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 63B43F1B1DC35A2C0081B544 /* 1.png */; };
-		63B43F201DC35A2C0081B544 /* UIImageView+DJXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B43F1D1DC35A2C0081B544 /* UIImageView+DJXWebImage.m */; };
-		63B43F241DC35A630081B544 /* DJXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B43F231DC35A630081B544 /* DJXScrollView.m */; };
 		63BF5B4C1B4CBEE3000661F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF5B4B1B4CBEE3000661F9 /* main.m */; };
 		63BF5B4F1B4CBEE3000661F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF5B4E1B4CBEE3000661F9 /* AppDelegate.m */; };
 		63BF5B521B4CBEE3000661F9 /* UMScrollImageDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 63BF5B501B4CBEE3000661F9 /* UMScrollImageDemo.xcdatamodeld */; };
 		63BF5B551B4CBEE3000661F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF5B541B4CBEE3000661F9 /* ViewController.m */; };
 		63BF5B581B4CBEE3000661F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BF5B561B4CBEE3000661F9 /* Main.storyboard */; };
-		63BF5B5A1B4CBEE3000661F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63BF5B591B4CBEE3000661F9 /* Images.xcassets */; };
 		63BF5B5D1B4CBEE3000661F9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63BF5B5B1B4CBEE3000661F9 /* LaunchScreen.xib */; };
 		63BF5B691B4CBEE3000661F9 /* UMScrollImageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BF5B681B4CBEE3000661F9 /* UMScrollImageDemoTests.m */; };
+		B809D45924753379005A820E /* DJXCircleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = B809D45624753378005A820E /* DJXCircleScrollView.m */; };
+		B809D45A24753379005A820E /* UIImageView+DJXWebImage.m in Sources */ = {isa = PBXBuildFile; fileRef = B809D45824753379005A820E /* UIImageView+DJXWebImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,10 +31,6 @@
 
 /* Begin PBXFileReference section */
 		63B43F1B1DC35A2C0081B544 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		63B43F1C1DC35A2C0081B544 /* UIImageView+DJXWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DJXWebImage.h"; sourceTree = "<group>"; };
-		63B43F1D1DC35A2C0081B544 /* UIImageView+DJXWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DJXWebImage.m"; sourceTree = "<group>"; };
-		63B43F221DC35A630081B544 /* DJXScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJXScrollView.h; sourceTree = "<group>"; };
-		63B43F231DC35A630081B544 /* DJXScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJXScrollView.m; sourceTree = "<group>"; };
 		63BF5B461B4CBEE3000661F9 /* UMScrollImageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UMScrollImageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BF5B4A1B4CBEE3000661F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BF5B4B1B4CBEE3000661F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -45,11 +40,14 @@
 		63BF5B531B4CBEE3000661F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63BF5B541B4CBEE3000661F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		63BF5B571B4CBEE3000661F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63BF5B591B4CBEE3000661F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		63BF5B5C1B4CBEE3000661F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		63BF5B621B4CBEE3000661F9 /* UMScrollImageDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UMScrollImageDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BF5B671B4CBEE3000661F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63BF5B681B4CBEE3000661F9 /* UMScrollImageDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMScrollImageDemoTests.m; sourceTree = "<group>"; };
+		B809D45524753378005A820E /* DJXCircleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DJXCircleScrollView.h; sourceTree = "<group>"; };
+		B809D45624753378005A820E /* DJXCircleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DJXCircleScrollView.m; sourceTree = "<group>"; };
+		B809D45724753378005A820E /* UIImageView+DJXWebImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+DJXWebImage.h"; sourceTree = "<group>"; };
+		B809D45824753379005A820E /* UIImageView+DJXWebImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+DJXWebImage.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,15 +76,6 @@
 			path = image;
 			sourceTree = "<group>";
 		};
-		63B43F211DC35A630081B544 /* ScrollView */ = {
-			isa = PBXGroup;
-			children = (
-				63B43F221DC35A630081B544 /* DJXScrollView.h */,
-				63B43F231DC35A630081B544 /* DJXScrollView.m */,
-			);
-			path = ScrollView;
-			sourceTree = "<group>";
-		};
 		63BF5B3D1B4CBEE3000661F9 = {
 			isa = PBXGroup;
 			children = (
@@ -108,16 +97,15 @@
 		63BF5B481B4CBEE3000661F9 /* UMScrollImageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				63B43F211DC35A630081B544 /* ScrollView */,
+				B809D45424753378005A820E /* ScrollView */,
+				B809D45724753378005A820E /* UIImageView+DJXWebImage.h */,
+				B809D45824753379005A820E /* UIImageView+DJXWebImage.m */,
 				63B43F1A1DC35A2C0081B544 /* image */,
-				63B43F1C1DC35A2C0081B544 /* UIImageView+DJXWebImage.h */,
-				63B43F1D1DC35A2C0081B544 /* UIImageView+DJXWebImage.m */,
 				63BF5B4D1B4CBEE3000661F9 /* AppDelegate.h */,
 				63BF5B4E1B4CBEE3000661F9 /* AppDelegate.m */,
 				63BF5B531B4CBEE3000661F9 /* ViewController.h */,
 				63BF5B541B4CBEE3000661F9 /* ViewController.m */,
 				63BF5B561B4CBEE3000661F9 /* Main.storyboard */,
-				63BF5B591B4CBEE3000661F9 /* Images.xcassets */,
 				63BF5B5B1B4CBEE3000661F9 /* LaunchScreen.xib */,
 				63BF5B501B4CBEE3000661F9 /* UMScrollImageDemo.xcdatamodeld */,
 				63BF5B491B4CBEE3000661F9 /* Supporting Files */,
@@ -149,6 +137,15 @@
 				63BF5B671B4CBEE3000661F9 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B809D45424753378005A820E /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				B809D45524753378005A820E /* DJXCircleScrollView.h */,
+				B809D45624753378005A820E /* DJXCircleScrollView.m */,
+			);
+			path = ScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +197,7 @@
 				TargetAttributes = {
 					63BF5B451B4CBEE3000661F9 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = M3UYE69NKU;
 					};
 					63BF5B611B4CBEE3000661F9 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -209,7 +207,7 @@
 			};
 			buildConfigurationList = 63BF5B411B4CBEE3000661F9 /* Build configuration list for PBXProject "UMScrollImageDemo" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -234,7 +232,6 @@
 				63BF5B581B4CBEE3000661F9 /* Main.storyboard in Resources */,
 				63B43F1F1DC35A2C0081B544 /* 1.png in Resources */,
 				63BF5B5D1B4CBEE3000661F9 /* LaunchScreen.xib in Resources */,
-				63BF5B5A1B4CBEE3000661F9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,11 +249,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B809D45924753379005A820E /* DJXCircleScrollView.m in Sources */,
 				63BF5B521B4CBEE3000661F9 /* UMScrollImageDemo.xcdatamodeld in Sources */,
 				63BF5B4F1B4CBEE3000661F9 /* AppDelegate.m in Sources */,
-				63B43F241DC35A630081B544 /* DJXScrollView.m in Sources */,
 				63BF5B551B4CBEE3000661F9 /* ViewController.m in Sources */,
-				63B43F201DC35A2C0081B544 /* UIImageView+DJXWebImage.m in Sources */,
+				B809D45A24753379005A820E /* UIImageView+DJXWebImage.m in Sources */,
 				63BF5B4C1B4CBEE3000661F9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -385,8 +382,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3UYE69NKU;
 				INFOPLIST_FILE = UMScrollImageDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -396,8 +394,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M3UYE69NKU;
 				INFOPLIST_FILE = UMScrollImageDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
